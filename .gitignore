@@ -1,0 +1,85 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.build/
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+*.secret
+secrets.json
+config.local.yaml
+token.txt
+
+# Logs & runtime data
+*.log
+logs/
+*.pid
+*.sqlite3
+
+# Test / coverage / reports
+.coverage
+.coverage.*
+htmlcov/
+pytestdebug.log
+.pytest_cache/
+.mypy_cache/
+.cache/
+.pyre/
+ruff_cache/
+
+# Type checker / static analysis
+.dmypy.json
+
+# Jupyter notebooks (if occasionally used)
+.ipynb_checkpoints/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker overrides (keep base files, ignore local overrides)
+docker-compose.override.yml
+
+# Telegram bot specific (sample config should be tracked as e.g. config.example.yaml)
+config.yaml
+
+# Optional: downloaded assets / temp files
+/tmp/
+/data/
+
+# Ignore compiled C extensions
+*.so
+
+# Wheel files
+*.whl
+
+# Poetry / pipenv lock artifacts if not used
+poetry.lock
+Pipfile.lock
+
+# Misc
+*.bak

@@ -1,0 +1,2 @@
+# MTG-Decklist
+## MtgSnriseBot
