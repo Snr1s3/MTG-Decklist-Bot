@@ -1,8 +1,8 @@
 import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, PicklePersistence
-from config import BOT_TOKEN
-from handlers import setup_handlers
+from .config import BOT_TOKEN
+from .handlers import setup_handlers
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
