@@ -9,5 +9,3 @@ API_URL = "https://api.telegram.org/bot" + BOT_TOKEN + "/"
 DB_PSSWD = os.getenv("DB_PSSWD","")
 DB_USER = os.getenv("DB_USER","")
 DB_URL = os.getenv("DB_URL","")
-
-

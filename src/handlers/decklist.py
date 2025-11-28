@@ -17,7 +17,6 @@ async def receive_deck_name(update: Update, context: ContextTypes.DEFAULT_TYPE) 
 async def receive_decklist(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     deck_name = context.user_data.get("deck_name", "Unnamed Deck")
     msg = update.message.text.split()
-    print(f"\n{context}\n\n\n")
     convert = []
     st = ""
     msg = [m for m in msg if m != '*F*']
